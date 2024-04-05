@@ -1,3 +1,4 @@
+// Program for shifting elements
 #include <iostream>
 using namespace std;
 //right shifting by 1 position in an array
