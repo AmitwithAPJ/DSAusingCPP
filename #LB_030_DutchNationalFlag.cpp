@@ -1,3 +1,4 @@
+//Program for Butch National flag Problem, in which we will sort 0,1,2 in increasing order!!
 #include <iostream>
 using namespace std;
 
@@ -22,7 +23,7 @@ int main() {
     int arr[]={0,1,2,0,2,1,0,1,1,0,0,1,2,1,2,0,1,2};
     int size=18;
 
-    dutchNationalFlag(arr, size);
+    dutchNationalFlag(arr, size);  //Passing arguments to the fucntion(DutchNationalFlag)
 
     cout << "Sorted array: ";
     for (int i = 0; i < size; i++) {
