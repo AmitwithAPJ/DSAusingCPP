@@ -14,9 +14,9 @@ void shifting_array(int arr[], int size)
 }
 int main ()
 {
-    int arr[]={10,20,30,40,50,60};
+    int arr[]={10,20,30,40,50,60}; //Array of size of 6 is created 
     int size=6;
-    shifting_array(arr,size);
+    shifting_array(arr,size);   /Passing the arguments
     for(int i=0;i<size;i++)
     {
         cout << arr[i] << " ";
