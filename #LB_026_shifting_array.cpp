@@ -1,3 +1,4 @@
+//Program for shifitng the elemenst in the array!!!
 #include <iostream>
 using namespace std;
 void shifting_array(int arr[], int brr[],int size)
