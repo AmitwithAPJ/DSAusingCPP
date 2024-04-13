@@ -1,9 +1,11 @@
+//Program for first occurance in an array !!
+//using two-pointers approach
 #include <iostream>
 using namespace std;
 int first_occurance(int arr[], int size, int target)
 {
-    int start=0;
-    int end=size-1;
+    int start=0;   //setting the starting point 
+    int end=size-1;  //setting the end point
     int mid;
     int temp_ans=-1;
     while(start<=end)
