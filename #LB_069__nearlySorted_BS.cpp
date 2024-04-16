@@ -1,3 +1,4 @@
+//program for nearly sorted array through Binary Search !!
 #include <iostream>
 using namespace std;
 int nearlysorted_BS(int arr[], int size, int target)
