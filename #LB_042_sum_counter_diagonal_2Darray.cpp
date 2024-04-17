@@ -3,6 +3,7 @@ using namespace std;
 int summation_2D_diagonal(int arr[][5], int rows, int cols)
 {
     int sum_diagonal=0;
+    //Sum_diagonal is set to zero for  addition!!
     for(int i=0;i<rows;i++)
     {
         for(int j=cols-(i+1);j<cols-i;j++)
