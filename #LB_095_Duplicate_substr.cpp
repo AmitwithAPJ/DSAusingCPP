@@ -25,7 +25,7 @@ int main()
    string part;   //same but name as part
    cout << "Enter the String: ";
    getline(cin,str);    //taking input through the getline function 
-   cout << "Enter the part: ";  
+   cout << "Enter the part: "; 
    getline(cin,part);      
    removing(str,part);         //passing argument into the function "removing"
    
