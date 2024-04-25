@@ -1,3 +1,4 @@
+#Program for finding substr in a sring!!!
 #include <iostream>
 using namespace std;
 #include <limits.h>
@@ -20,16 +21,13 @@ void removing(string str, string part)
 }
 int main()
 {
-   string str;
-   string part;
+   string str;    //creating a string of name str
+   string part;   //same but name as part
    cout << "Enter the String: ";
-   getline(cin,str);
-   cout << "Enter the part: ";
-   getline(cin,part);
-   removing(str,part);
-
-
-
-
+   getline(cin,str);    //taking input through the getline function 
+   cout << "Enter the part: ";  
+   getline(cin,part);      
+   removing(str,part);         //passing argument into the function "removing"
+   
    return 0;
 }
