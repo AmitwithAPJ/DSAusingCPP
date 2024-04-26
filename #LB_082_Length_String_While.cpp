@@ -1,3 +1,4 @@
+#Program for the finding the length string!!
 #include <iostream>
 using namespace std;
 int main()
@@ -16,9 +17,6 @@ int main()
      i++;
   }
   cout << "The Length is: " << length<< endl;
-
-
-
 
   return 0;
 }
