@@ -1,7 +1,7 @@
 //program for nearly sorted array through Binary Search !!
 #include <iostream>
 using namespace std;
-int nearlysorted_BS(int arr[], int size, int target)
+int nearlysorted_BS(int arr[], int size, int target)   //setting the parameters in the nearly_sorted _BS
 {
     int start=0;
     int ans=-1;
