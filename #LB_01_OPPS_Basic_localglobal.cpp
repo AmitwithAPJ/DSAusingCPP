@@ -9,10 +9,12 @@ int main()
     {
        int x=20;        //another local variable created 
         cout << x << endl;
+      x=5;
+        cout << x  << endl;
+        cout << ::x << endl;
     }
     cout << x << endl;
     cout << ::x<< endl; //accessing global variable 
-    
     
     
     
