@@ -3,7 +3,7 @@ using namespace std;
 int Peak_Element(int arr[], int size)
 {
     int start=0;
-    int end=size-1;
+    int end=size-1;   //setting the size of end
     int ans=0;
     while(start<end)
     {
