@@ -1,4 +1,4 @@
-#Program for finding substr in a sring!!!
+//Program for finding substr in a sring!!!
 #include <iostream>
 using namespace std;
 #include <limits.h>
