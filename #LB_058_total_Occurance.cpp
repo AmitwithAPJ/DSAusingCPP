@@ -5,7 +5,7 @@ int total_occurance(int arr[], int size, int target)
     int start=0;
     int end=size-1;
     int result;
-    int mid;
+    int mid;   //declaraling mid to know the total occurance thr BS
     while(start<=end)
     {
         mid=(start+end)/2;
