@@ -12,7 +12,7 @@ void printing(vector<vector<int>>&arr)
         cout << a << " " << b << endl;
     }
 }
-bool mycomp2nd(vector<int>&a, vector<int>&b)
+bool mycomp2nd(vector<int>&a, vector<int>&b)  //mycomp2nd to cutsomly do the sorting!!
 {
     return a[0]>b[0];
 }
