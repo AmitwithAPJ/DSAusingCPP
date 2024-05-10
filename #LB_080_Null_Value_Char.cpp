@@ -14,10 +14,6 @@ int main()
   }
   int value=static_cast<int>(temp+1);
   cout << "The Value of Null characetr is: " << value << endl;
-  
-
-
-
 
   return 0;
 }
