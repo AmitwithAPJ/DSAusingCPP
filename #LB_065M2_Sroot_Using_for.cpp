@@ -7,7 +7,7 @@ double square_root(int number)
     {
         if((temp/2)*(temp/2)==number)
         {
-            ans=temp;
+            ans=temp;   //ans have the temp which will store value in after checking the conditions!!
             return temp/2;
         }
         else if(number-(temp*temp)>=0.001)
