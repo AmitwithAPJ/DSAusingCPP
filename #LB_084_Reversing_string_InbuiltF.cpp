@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-  char ch[20];
+  char ch[20];  //char array of size 20
   int size=sizeof(ch)/sizeof(ch[0]);
   cin.getline(ch,size);
   cout << "Before Swapping: " << ch << endl;
