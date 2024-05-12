@@ -12,6 +12,7 @@ class Student
          string name;
          int class_no;
          bool present;
+  
  
  //Member Functions/Behavoir Created Below
          void playing()
