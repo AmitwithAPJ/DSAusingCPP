@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-  char ch[25];
+  char ch[25];   //char array of size 25!!
   cin.getline(ch,25);
   int size=strlen(ch);
   for(int i=0;i<size;i++)
