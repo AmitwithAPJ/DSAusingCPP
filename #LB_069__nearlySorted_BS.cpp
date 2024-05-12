@@ -23,14 +23,14 @@ int nearlysorted_BS(int arr[], int size, int target)   //setting the parameters 
         }
         else if(target>arr[mid])
         {
-            start=mid+2;
+            start=mid+2; //
         }
         else
         {
             end=mid-2;
         }
     }
-    return -1;
+    return -1;   //return "-1" value if the target wasn't founded in the code!! 
 }
 int main()
 {
@@ -38,7 +38,7 @@ int main()
     int size=sizeof(arr)/sizeof(arr[0]);
     int target=0;
     int result=nearlysorted_BS(arr,size,target);
-    if((result!=-1))
+    if((result!=-1))   //condition to check whether the result is found or not!!!
     {
     cout << "The Target Found at: " << result;
     }
