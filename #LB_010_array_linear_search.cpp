@@ -4,7 +4,7 @@ int main ()
 {
     int arr[6]={2,4,6,7,10,12};
     int size=6;
-    int target=8;
+    int target=8;  //target set as 8
     int i=0;
     bool flag=0;
     int j=6;
