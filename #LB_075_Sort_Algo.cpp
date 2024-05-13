@@ -2,7 +2,7 @@
 #include <algorithm> //for sorting 
 using namespace std;
 #include <vector>
-void printing(vector<int>arr)
+void printing(vector<int>arr)  //
 {
     for(int i=0;i<arr.size();i++)
     {
