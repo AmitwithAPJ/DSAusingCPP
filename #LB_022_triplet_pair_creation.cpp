@@ -2,7 +2,7 @@
 using namespace std;
 void triplet_printing(int arr[], int size)
 {
-    int sum=0;
+    int sum=0;  //sum variable 
     for (int i=0;i<size;i++)
     {
         for(int j=0; j<size;j++)
