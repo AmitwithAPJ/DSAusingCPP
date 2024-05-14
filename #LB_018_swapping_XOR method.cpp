@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void swapping(int arr[], int index1, int index2)
+void swapping(int arr[], int index1, int index2)  //swapping function
 {
     arr[index1]=(arr[index1]^arr[index2]);
     arr[index2]=arr[index1]^arr[index2];
