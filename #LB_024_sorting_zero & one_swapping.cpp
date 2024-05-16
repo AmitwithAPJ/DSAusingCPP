@@ -21,7 +21,7 @@ void sorting_pointers(int arr[], int size)  //sorting_pointers function!!
       }
       else
       {
-          j--;
+          j--;   //dcrementing the value of j!!
       }
     }
 }
