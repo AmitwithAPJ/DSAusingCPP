@@ -11,7 +11,7 @@ int main()
         cout << x << endl;
       x=5;
         cout << x  << endl;
-        cout << ::x << endl;
+        cout << ::x << endl;   //accessing global variable
     }
     cout << x << endl;
     cout << ::x<< endl; //accessing global variable 
