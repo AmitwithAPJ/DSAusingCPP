@@ -28,8 +28,8 @@ vector<int> check_prime(int num)
 }
 int main()
 {
-    int num;
-    cout << "Enter the number: ";
+    int num;  
+    cout << "Enter the number: ";    
     cin>> num;
     vector<int>result=check_prime(num);
     for(int i=0;i<result.size();i++)
