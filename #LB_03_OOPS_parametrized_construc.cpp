@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Student
+class Student   //class name -> Student
 {
  private:
    int mobile_no;
@@ -13,13 +13,14 @@ class Student
    bool present;
  Student(int _class, int _roll_no, int _nos, string _name, bool _present, int _mobile_no)   
  {
+  //class data members initialization
       class1 = _class;
       roll_no= _roll_no;
       nos= _nos;
       name= _name;
-     present = _present; 
-     mobile_no= _mobile_no;
-     cout << "I am Learning!!" << endl;
+      present = _present; 
+      mobile_no= _mobile_no;
+      cout << "I am Learning!!" << endl;
  }
  void printing()
  {
