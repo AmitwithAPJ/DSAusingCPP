@@ -12,11 +12,5 @@ int main ()
         ans=arr[i];
     }
     cout << "The Maximum is: " << ans;
-    
-    
-    
-    
-    
-    
     return 0;
 }
