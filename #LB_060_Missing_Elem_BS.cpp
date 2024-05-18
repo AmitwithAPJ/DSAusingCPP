@@ -4,7 +4,7 @@ int missing_element(int arr[], int size)
 {
    int mid;
    int start=0;
-   int end=size-1;
+   int end=size-1;  //setting end value
    while(start<=end)
    {
       mid=start+(start/end)/2;
