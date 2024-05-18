@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Student
+class Student  //class Student created
 {
      private:
         int mobile_no;
@@ -37,7 +37,7 @@ int main()
 
 //Passing values to the object Data members
     S1.id=23;   
-    S1.roll_no=234;
+    S1.roll_no=24;
     S1.name="Amit";
     S1.class_no=6;
     S1.present=0;
