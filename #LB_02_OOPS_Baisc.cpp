@@ -45,7 +45,7 @@ int main()
     S2.id=23;
     S2.roll_no=234;
     S2.name="Chutki";
-    S2.class_no=6;
+    S2.class_no=61;
     S2.present=0;
     //cout << sizeof(Student) << endl;
     cout << sizeof(S1.name) << endl;   //printing/accessing data member of object S1
