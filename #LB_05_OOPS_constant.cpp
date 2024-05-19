@@ -8,7 +8,7 @@ int main()
     const int x=5;
     cout << x << endl;
     int *p=x;
-    p=10;
+    p=10;   
     cout << x << endl;
    */ 
 
