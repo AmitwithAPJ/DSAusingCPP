@@ -12,7 +12,7 @@ void sorting(int arr[], int size)
         }
         else if(arr[i]<0)
         {
-            i++;
+            i++; //incrementing the value of i
         }
         else if(arr[j]>0)
         {
