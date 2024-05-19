@@ -9,18 +9,18 @@ class Abc
     public:
      Abc(int _x, int _y, int _z=0)
      {
-         x=_x;
-         y=_y;
-         x=_z;
+         x=_x;  //
+         y=_y;  //
+         x=_z;  //
          cout <<"para ctor called!!" << endl;
      } 
      int getX() const  //passing const for const Abc below
      {
-        return x;
+        return x;  //returning the value of x!!
      }
      void setX(int _value)
      {
-        x=_value;
+        x=_value;  //
      }
       int getY() const   // same as above wala
      {
