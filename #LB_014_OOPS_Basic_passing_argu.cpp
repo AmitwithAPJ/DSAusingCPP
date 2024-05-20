@@ -3,7 +3,7 @@ using namespace std;
 class demo
 {
   public:
-   int x,y;
+   int x,y;   //declaration of x and y variables
    void printing()
    {
       cout << this->x << " " << this->y << endl;
