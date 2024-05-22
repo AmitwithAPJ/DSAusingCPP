@@ -9,7 +9,7 @@ void missing_element(int arr[], int size, int total_num)
         {
             if(i==arr[j])
             {
-                flag=true;
+                flag=true;  //
                 break;
             }
         }
