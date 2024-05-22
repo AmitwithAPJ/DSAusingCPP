@@ -8,7 +8,7 @@ int Peak_Element(int arr[], int size) {
         int mid = start + (end - start) / 2;
         if ((mid == 0 || arr[mid] >= arr[mid - 1]) && (mid == size - 1 || arr[mid] >= arr[mid + 1])) {
             // If arr[mid] is greater than or equal to its neighbors, it's a peak element
-            return mid;
+            return mid;  //
         } else if (mid > 0 && arr[mid - 1] > arr[mid]) {
             // If arr[mid - 1] is greater than arr[mid], search left
             end = mid - 1;
