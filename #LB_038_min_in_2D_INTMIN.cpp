@@ -10,7 +10,7 @@ int min_2D(int arr[][3],int rows, int cols)
         {
             if(arr[i][j]<min)
             {
-                min=arr[i][j];
+                min=arr[i][j];    //minimum set to arr[i]
             }
         }
     }
