@@ -24,7 +24,7 @@ void sorting_check(int arr[], int size)
 }
 int main ()
 {
-    int arr[]={1,0,0,1,0,0,1,1,0};
+    int arr[]={1,0,0,1,0,0,1,1,0};   //initializing array
     int size=9;
    // int size = sizeof(arr)/sizeof(arr[0]);
     sorting_check(arr,size);
