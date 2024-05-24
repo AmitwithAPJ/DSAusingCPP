@@ -2,8 +2,8 @@
 using namespace std;
 void shifting_array(int arr[],int size)
 {
-    int temp1=arr[size-1];
-    int temp2=arr[size-2];
+    int temp1=arr[size-1];  //creating temp variable to store the extra data
+    int temp2=arr[size-2];  //creating temp variable to store the extra data
     for(int i=size-1;i>1;i--)
     {
         arr[i]=arr[i-2];
