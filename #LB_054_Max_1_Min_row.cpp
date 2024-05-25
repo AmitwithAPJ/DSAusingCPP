@@ -27,7 +27,7 @@ void max_element(int arr[][4], int rows, int cols)
         }
         if(temp==brr[i-1])
         {
-            row_no=min(row_no,i);
+            row_no=min(row_no,i); //storing the value!!
         }
     }
     cout << "The Total One Element is: " << temp << " in row: " << row_no;
