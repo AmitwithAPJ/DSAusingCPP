@@ -4,7 +4,7 @@ class Abc
 {
     private:
      int x;
-     int *y;
+     int *y;  //dynamic
      const int z=10;
     public:
      Abc(int _x, int _y, int _z=10): x(_x), y(new int(_y)), z(_z)
