@@ -3,7 +3,7 @@ using namespace std;
 void missing_element(int arr[], int size, int total_nums)
 {
     int sum_array=0;
-    int total_sums=0;
+    int total_sums=0;  //
     for(int i=0;i<size;i++)
     {
         sum_array=sum_array+arr[i];
