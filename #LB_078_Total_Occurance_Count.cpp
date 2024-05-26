@@ -11,7 +11,7 @@ int total_occurance(int arr[], int size, int target)
     int mid=start+(end-start)/2;
      if(arr[mid]==target)
     {
-       half_count++;
+       half_count++;  //
        end=mid-1;
        cout << "The Mid will shifted toward Second Half of the aray!!";
     }
