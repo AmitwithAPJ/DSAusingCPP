@@ -9,7 +9,7 @@ int binary_seacrh(int arr[],int size, int target)
         int mid=(start+end)/2;
         if(target==arr[mid])
         {
-            return 1;
+            return 1;  //returning "true" value
         }
         else if(target>arr[mid])
         {
