@@ -12,7 +12,7 @@ double Divide_BS(int Dividend, int Divisor)
         double mid=start+(end-start)/2;
         if(mid*Divisor==Dividend)
         {
-            return mid;
+            return mid; //
         }
         else if(mid*Divisor>Dividend)
         {
