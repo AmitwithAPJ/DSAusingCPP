@@ -5,13 +5,13 @@ void selection_sort(vector<int>&arr)
 {
     for(int i=0;i<arr.size()-1;i++)
     {
-       // int temp=arr[i];
+       // int temp=arr[i]
        int min_index=i;
         for(int j=i+1;j<arr.size();j++)
         {
             if(arr[j]<arr[min_index])
             {
-                min_index=j;
+                min_index=j; //
             }
         }
         swap(arr[i],arr[min_index]);
