@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class Animal
+class Animal  //Parent class created of name "Animal"
 {
    public:
      int age;
