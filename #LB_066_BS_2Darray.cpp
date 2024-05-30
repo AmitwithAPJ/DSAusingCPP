@@ -3,7 +3,7 @@
 using namespace std;
 bool BS_2D(vector<vector<int>>&matrix, int size, int target, int column)
 {
-    int start=0;
+    int start=0; //sstart variable initialized!!
     int end=size-1;
     while(start<=end)
     {
