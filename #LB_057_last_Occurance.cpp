@@ -3,7 +3,7 @@ using namespace std;
 int first_occurance(int arr[], int size, int target)
 {
     int start=0;
-    int end=size-1;
+    int end=size-1;  //set end size 
     int mid;
     int temp_ans=-1;
     while(start<=end)
