@@ -3,7 +3,7 @@ using namespace std;
 class Student
 {
    private:
-    int mobile_no;
+    int mobile_no;  //private data member
    public:
     int roll_no;
     int class1;
