@@ -7,14 +7,14 @@ int main()
   int size=sizeof(ch)/sizeof(ch[0]);
   cin.getline(ch,size);
   cout << "Before Swapping: " << ch << endl;
-  string str(ch);
- int start=0;
-  int end=strlen(ch)-1;
-  while(start<end)
+  string str(ch);  //finding the length of string names "ch"
+  int start=0; //initializing the start
+  int end=strlen(ch)-1; //seting end using "strlen" keyword
+  while(start<end) //putting the conditions 
   {
-    swap(ch[start],ch[end]);
-    start++;
-    end--;
+    swap(ch[start],ch[end]);  //swapping the elements (start & end)
+    start++;  //increment in start!!
+    end--;   //decreasing the end!!
   }
   cout << "After Swapping: " << ch << endl;
 
