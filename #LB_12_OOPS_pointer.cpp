@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class Student
+class Student // class Student created !!
 {
  public:
    int id;
