@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+using namespace std;//
 void replacing(char ch[], int size)
 {
    int i=0;
