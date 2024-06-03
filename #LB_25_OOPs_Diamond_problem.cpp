@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Person
+class Person   ///
 {
    public:
     int age;
