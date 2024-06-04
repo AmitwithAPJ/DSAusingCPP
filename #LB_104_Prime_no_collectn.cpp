@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-vector<int> prime_checking(int num)
+vector<int> prime_checking(int num)   !!
 {
    vector<int>temp;
    for(int i=2;i<num;i++)
