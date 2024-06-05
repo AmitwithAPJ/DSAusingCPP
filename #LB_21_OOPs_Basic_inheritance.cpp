@@ -4,7 +4,7 @@ class Bird
 {
    public:
     int age;
-    int weight;
+    int weight;  //
     string color;
     int nol;
    void fly()
