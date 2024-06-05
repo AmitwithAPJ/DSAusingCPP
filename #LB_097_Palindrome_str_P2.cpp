@@ -10,7 +10,7 @@ bool checking_palindrome(string str)
    {
       if(str[start]==str[end])
       {
-         start++;
+         start++; //
          end--;
       }
       else if(str[start]!=str[end])
