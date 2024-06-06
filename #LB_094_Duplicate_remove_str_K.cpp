@@ -16,10 +16,10 @@ void removal(string str, int k)
          }
          else
          {
-            break;
+            break; //important factor!!
          }
       }
-      if(count==k)
+      if(count==k)  //
       {
          str.erase(index,k);
          index=0;
