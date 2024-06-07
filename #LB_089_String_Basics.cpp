@@ -11,7 +11,7 @@ int main()
  /*int i=0;
   while(name[i]!='\0')
   {
-    cout << "At Index: " << i << " Character: " << name[i] << endl;
+    cout << "At Index: " << i << " Character: " << name[i] << endl;  //
     i++;
   }
   */
