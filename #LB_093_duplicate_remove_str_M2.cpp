@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include <limits.h>
+#include <limits.h>//
 void duplicate_removing(string str)
 {
     int index=0;
