@@ -5,7 +5,7 @@ int main()
 {
 /*string main_name;
 string sur_name;
-cout << "Enter the name: ";
+cout << "Enter the name here: ";
 getline(cin,main_name);*/
 /*cout << "Length: " << name.length() << endl;
 cout << "Is String Empty: " << name.empty() << endl;
