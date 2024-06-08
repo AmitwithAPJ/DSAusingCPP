@@ -4,7 +4,7 @@ class data_func
 {
    private:
     static int x;
-    static int y;
+    static int y;//
    public: 
     data_func(int _x, int _y)
     {
