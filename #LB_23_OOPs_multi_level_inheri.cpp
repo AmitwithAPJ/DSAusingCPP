@@ -10,7 +10,6 @@ public:
         cout << "Fruits are very tasty:)" << endl;
     }
 };
-
 class Mango: private Fruit
 {
   public:
@@ -41,7 +40,7 @@ class Dashari: private Mango
     }
     void juice()
     {
-       cout << "Dashari mangoes are very juicy!!" << endl;
+       cout << "Dashari mangoes are very juicy!!" << endl; //
     }
 };
 int main()
@@ -50,16 +49,13 @@ int main()
   // cout << M1.color << endl;
  //  M1.taste();          //cannot access bcoz we cannot use method outsie the private class 
                         //mango is private so it will inherit everthing privately therefore I can 
-                        //access only access the things of mango only not others.
-   M1.sweet();
+                        //access only access the things of mango only not others....
+  M1.sweet();
   Dashari D1(21,2,"Yelolow",0,1,1);
   // cout << D1.riped << endl;
-//cout << D1.color << endl;
-//   D1.sweet();
+  //cout << D1.color << endl;
+  //   D1.sweet();
    D1.juice();
-
-
-
 
    return 0;
 }
