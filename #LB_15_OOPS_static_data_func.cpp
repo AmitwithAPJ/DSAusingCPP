@@ -5,7 +5,7 @@ class data_func
     public:
      int x, y;
      data_func(): x(0),y(0){}
-    static void printing()    //no instances passed to the function
+    static void printing()    //no instances passed to the functions
     {
        cout << x << " " << y << endl; //means you can directly access the variables as 
                                        //"this" pointer is applicable in static data function
