@@ -2,7 +2,7 @@
 using namespace std;
 class Fruit {
 public:
-    int picked;
+    int picked;//
     int weight;
     string color;
     bool sweetness;
