@@ -12,7 +12,7 @@ int main ()
     {
         if(arr[i]==target||arr[j]==target)
         {
-            flag=1;
+            flag=1;//
             break;
         }
         i++;
