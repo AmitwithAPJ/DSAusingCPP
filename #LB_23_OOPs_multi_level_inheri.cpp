@@ -14,7 +14,7 @@ class Mango: private Fruit
 {
   public:
    bool riped;
-   bool desi;
+   bool desi;/
    Mango(int _picked, int _weight, string _color, bool _sweetness, bool _riped, bool _desi): 
    Fruit{_picked,_weight,_color, _sweetness}, riped(_riped), desi(_desi)
    {
@@ -23,7 +23,7 @@ class Mango: private Fruit
        color=_color;
        sweetness=_sweetness;
        riped=_riped;
-       desi=_desi; */
+       desi=_desi; *//
    }
    void sweet()
    {
