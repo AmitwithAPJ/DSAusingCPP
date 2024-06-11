@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class data_mem
+class data_mem//
 {
    public: 
    static int x;
