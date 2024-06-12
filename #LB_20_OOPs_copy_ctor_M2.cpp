@@ -3,11 +3,11 @@ using namespace std;
 class Student
 {
    private:
-    int mobile_no;
+    int mobile_no;//
    public:
     int class_no;
     string name;
-    bool attendance;
+    bool attendance; //
     int nos;
     Student(int _mobile_no, int _class_no, string _name, bool _attendence, int _nos)
     {
