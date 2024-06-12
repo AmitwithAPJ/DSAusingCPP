@@ -12,7 +12,7 @@ void removing(string str, string part)
 int main()
 {
    string str;
-   string part;
+   string part; //
    cout << "Enter the String: ";
    getline(cin,str);
    cout << "Enter the part: ";
