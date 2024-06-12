@@ -5,7 +5,7 @@ void removing(string str, string part)
 {
    while(str.find(part)!=string::npos)
    {
-      str.erase(str.find(part),part.length());
+      str.erase(str.find(part),part.length());//
    }
    cout << "After removal: " << str << endl;
 }
