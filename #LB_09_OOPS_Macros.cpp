@@ -4,7 +4,7 @@ using namespace std;
 #define PI 3.14157  //defining macros and putting value without "="
 float area_circle(float radius) //function!!
 {
-    return PI*radius*radius;
+    return PI*radius*radius;//
 }
 float circum_circle(float radius)
 {
