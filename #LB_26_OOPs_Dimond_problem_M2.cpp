@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class Person{    //person
+class Person{    //class Person created
    public:
     int age;
     float height;
