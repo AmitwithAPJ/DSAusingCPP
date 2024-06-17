@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 #include <limits.h>
-#include <cmath>
+#include <cmath>    //header file for mathematics based functions
 int main ()
 {
     int arr[10]={1,2,3,4,5,-1,100,-100,400,321};
