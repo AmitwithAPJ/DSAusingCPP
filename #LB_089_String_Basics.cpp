@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
   string name;
-    //basic name printing in string!!
+    //basic name printing in string..
  // cin >> name;
  //cout << "printing: " << name;
     //name printing through loop for each index!!
