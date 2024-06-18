@@ -1,7 +1,7 @@
 #include <iostream>
 #include <limits.h>
 using namespace std;
-string decoding(string key, string message)  //
+string decoding(string key, string message)  //string name-> decoding
 {
   char temp='a';
   char arr[200]={0};
