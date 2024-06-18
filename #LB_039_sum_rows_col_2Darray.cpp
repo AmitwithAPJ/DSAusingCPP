@@ -8,7 +8,7 @@ void summation_2Darray(int arr[][4], int rows, int cols)
     {
         for(int j=0;j<cols;j++)
         {
-           sum_rows=sum_rows+arr[i][j];  
+           sum_rows=sum_rows+arr[i][j];  //sum_rows variable storing!!
         }
         cout << "The Row" << i << " is: " << sum_rows << endl;
         sum_rows=0;
