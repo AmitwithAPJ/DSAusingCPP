@@ -2,8 +2,8 @@
 using namespace std;
 void shifting_array(int arr[], int size)  //shifting_array function used to do shifting of elements!!
 {
-    int temp1=arr[size-1];   //tenp1 variable stores array's initial element.
-    int temp2=arr[size-2];   //temp2 varaible stores the array second most initaial element.
+    int temp1=arr[size-1];   //tenp1 variable stores array's initial element..
+    int temp2=arr[size-2];   //temp2 varaible stores the array second most initaial element..
     for(int i=size-1;i>1;i--)
     {
         arr[i]=arr[i-2];   //updating the array elements to make the shift 
