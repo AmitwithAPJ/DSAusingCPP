@@ -4,7 +4,7 @@ void sorting_array(int arr[], int size)
 {
     int zero_count=0;
     int one_count=0;
-    int brr[9]={};
+    int brr[9]={};//empty array created of size "9"
     for(int i=0;i<size;i++)
     {
         if(arr[i]==0)
