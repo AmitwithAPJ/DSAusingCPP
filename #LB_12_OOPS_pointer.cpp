@@ -4,7 +4,7 @@ class Student // class Student created !!
 {
  public:
    int id;
-   int class1;
+   int class1; //
    int roll_no;
    string *name;
    int present;
