@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-int missing_element(int arr[], int size)
+int missing_element(int arr[], int size)//
 {
    int mid;
    int start=0;
