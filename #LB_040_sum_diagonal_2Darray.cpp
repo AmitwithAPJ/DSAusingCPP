@@ -9,7 +9,7 @@ int summation_2D_diagonal(int arr[][5],int rows, int cols)
         {
             if(i==j)
             {
-            sum_diagonal += arr[i][j];   //
+            sum_diagonal += arr[i][j];   //storing the sum value here
             }
         }
     }
