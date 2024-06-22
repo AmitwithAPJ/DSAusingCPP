@@ -3,7 +3,7 @@ using namespace std;
 class Abc
 {
   int x;
-  int *y;
+  int *y;  //dynamic memory allocated
   public:
     Abc()
     {
