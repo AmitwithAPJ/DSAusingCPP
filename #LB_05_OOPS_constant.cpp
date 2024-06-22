@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
    /*
-    //old approach which is now useless in modern compilers!!
+    //old approach which is now useless in modern compilers
     const int x=5;
     cout << x << endl;
     int *p=x;
