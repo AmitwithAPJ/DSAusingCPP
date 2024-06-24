@@ -3,7 +3,7 @@ using namespace std;
 class Person{    //class Person created
    public:
     int age;
-    float height;
+    float height; //storing the values
     Person(int _age, float _height): age{_age}, height{_height}
     {}
    void walk()
