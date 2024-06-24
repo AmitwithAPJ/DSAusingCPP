@@ -6,7 +6,7 @@ int binary_seacrh(int arr[],int size, int target)
     int end=size-1;
     while(start<=end)
     {
-        int mid=(start+end)/2;
+        int mid=(start+end)/2; finding the mid!!
         if(target==arr[mid])
         {
             return 1;  //returning "true" value
