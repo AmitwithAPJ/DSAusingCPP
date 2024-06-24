@@ -6,7 +6,7 @@ int rotated_array(int arr[], int size)
     int end=size-1;
     while(start<=end)
     {
-        int mid=start+(end-start)/2;
+        int mid=start+(end-start)/2;   //finding the mid!!
         if(arr[mid]=arr[start])
         {
             return start;  //returning the start or end value if the position will be same!!
