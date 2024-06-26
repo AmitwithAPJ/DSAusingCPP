@@ -3,7 +3,7 @@
 using namespace std;
 void missing_element(int arr[], int size, int total_nums)
 {
-    int temp=arr[0];
+    int temp=arr[0];   //temp variable
     for(int i=1;i<size;i++)
     {
         temp=(temp^arr[i]);
@@ -17,11 +17,9 @@ void missing_element(int arr[], int size, int total_nums)
 int main()
 {
    int arr[]={2,0,1,4,5,6,7};   
- int size=sizeof(arr)/sizeof(arr[0]);
- int total_nums=7;
- missing_element(arr,size,total_nums); 
-    
-    
-    
-    return 0;
+   int size=sizeof(arr)/sizeof(arr[0]);
+   int total_nums=7;
+   missing_element(arr,size,total_nums); 
+
+   return 0;
 }
