@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-void insertion_sort(vector<int>&arr)  //
+void insertion_sort(vector<int>&arr)  //function created
 {
     for(int i=1;i<arr.size();i++)
     {
