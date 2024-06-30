@@ -2,7 +2,7 @@
 using namespace std;
 double square_root(int number)
 {
-    double ans=0;   //ans variable to store the value!!
+    double ans=0;   //ans variable to store the value!!!
     for(double temp=number; temp>0; temp=temp-0.002)
     {
         if((temp/2)*(temp/2)==number)
