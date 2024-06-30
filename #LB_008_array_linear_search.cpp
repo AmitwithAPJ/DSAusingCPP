@@ -5,7 +5,7 @@ int main ()
 {
     int arr[]={2,4,6,8,10,12};
     int size=6;
-    int target=8;   //target to find in the array
+    int target=8;   //target to be finded in the array
     bool flag=0;    //flag variable created to check whether target is found or not 
     for(int i=0; i<size; i++)
     {
