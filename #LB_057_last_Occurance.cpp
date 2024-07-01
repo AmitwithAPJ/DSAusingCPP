@@ -2,8 +2,8 @@
 using namespace std;
 int first_occurance(int arr[], int size, int target)
 {
-    int start=0;
-    int end=size-1;  //set end size 
+    int start=0;    //setting start as well!!
+    int end=size-1;  //set end variable size 
     int mid;
     int temp_ans=-1;
     while(start<=end)
