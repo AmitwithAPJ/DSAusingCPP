@@ -3,11 +3,11 @@ using namespace std;
 class Student
 {
    private:
-    int mobile_no;//
+    int mobile_no;   //creation of private data member
    public:
     int class_no;
     string name;
-    bool attendance; //
+    bool attendance; //public data member of type bool is created!!
     int nos;
     Student(int _mobile_no, int _class_no, string _name, bool _attendence, int _nos)
     {
