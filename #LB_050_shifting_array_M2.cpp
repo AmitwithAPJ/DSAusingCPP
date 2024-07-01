@@ -1,9 +1,9 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-void shifiting(int arr[], int size)
+void shifiting(int arr[], int size)   //function for shifting the elements in an array!!
 {
-    vector<int>brr;   //
+    vector<int>brr;   //creating the vector name "brr"
     brr.push_back(arr[size-1]);
     brr.push_back(arr[size-2]);
     for(int i=0;i<size-2;i++)
