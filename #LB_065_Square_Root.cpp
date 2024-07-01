@@ -1,6 +1,6 @@
 #include <iostream>
 #include <iomanip>
-using namespace std;//
+using namespace std;
 double square_root(int number)
 {
     double start=0;
@@ -10,7 +10,7 @@ double square_root(int number)
     while(end-start>precision)
     {
         double mid=start+(end-start)/2;
-        if(mid*mid==number)
+        if(mid*mid==number)   //condition to check the number 
         {
             
             return mid;
