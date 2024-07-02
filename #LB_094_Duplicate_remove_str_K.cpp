@@ -3,7 +3,7 @@ using namespace std;
 #include <limits.h>
 void removal(string str, int k)
 {
-   int index=0;  //
+   int index=0;  //index variable created
    while(index<=str.length()-(k-1))
    {
       int count=1;
