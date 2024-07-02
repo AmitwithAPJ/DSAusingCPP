@@ -5,7 +5,7 @@ int main()
 {
   char ch[25];   //char array of size 25!!
   cin.getline(ch,25);
-  int size=strlen(ch);
+  int size=strlen(ch); //finding size through strlen function in string
   for(int i=0;i<size;i++)
   {
       if(ch[i]>='A' && ch[i]<='Z')
