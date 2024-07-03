@@ -3,7 +3,7 @@
 using namespace std;
 vector<int> prime_checking(int num)   !!
 {
-   vector<int>temp;
+   vector<int>temp;  //created temp array
    for(int i=2;i<num;i++)
    {
        bool bool_temp=false;
