@@ -43,7 +43,7 @@ int total_occurance(int arr[], int size, int target)
             start=mid+1;
         }
     }
-    return (result-result2+1);
+    return (result-result2+1);  //returning the total occurance of the target
 }
 int main()
 {
