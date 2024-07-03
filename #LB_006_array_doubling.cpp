@@ -3,7 +3,7 @@
 using namespace std;
 int main ()
 {
-    int arr[10]; //array created of size 10
+    int arr[10]; //an array created of size 10
     int size=10;
     for (int i=0;i<size;i++)
     {
@@ -12,7 +12,7 @@ int main ()
     }
     for (int i=0; i<size;i++)
     {
-        arr[i]*=2;         // doubling of element in an array through indexes
+        arr[i]*=2;         // doubling of element in an array based on indexes
         cout << arr[i] << " ";  //printing of each element after doubling it
     }
     
