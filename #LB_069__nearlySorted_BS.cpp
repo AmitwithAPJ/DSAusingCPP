@@ -6,7 +6,7 @@ int nearlysorted_BS(int arr[], int size, int target)   //setting the parameters 
     int start=0;
     int ans=-1;
     int end=size-1;
-    while(start<=end)
+    while(start<=end)   //loop condition!!
     {
         int mid=start+(end-start)/2;
         if(arr[mid]==target)
