@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-void missing_element(int arr[], int size, int total_num)
+void missing_element(int arr[], int size, int total_num)//
 {
     for(int i=0;i<total_num;i++)
     {
