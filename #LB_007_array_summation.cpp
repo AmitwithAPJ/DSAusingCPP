@@ -15,7 +15,7 @@ int main ()
         int sum=0;        //sum variable created to store the values after each summation
         sum=sum+arr[i];   //summation of element through indexes
     }
-    cout << "The Summation of array elements are: " << sum;
+    cout << "The Summation of array elements are: " << sum;  //printing the sum value
     
     
     
