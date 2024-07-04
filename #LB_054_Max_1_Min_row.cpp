@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 #include<vector>
-void max_element(int arr[][4], int rows, int cols)
+void max_element(int arr[][4], int rows, int cols)//
 {
     vector<int>brr;
     for(int i=0;i<rows;i++)
