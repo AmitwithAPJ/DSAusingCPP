@@ -6,7 +6,7 @@ void basic_array(int arr[], int size) // an array function is created (basic_arr
     for(int i=0;i<size;i++)
     {
         cout << "Enter the Element: ";
-        cin >> arr[i];     //taking inputs in an array(arr) using index
+        cin >> arr[i];     //taking inputs in an array(arr) using index values!!
     }
 }
 int main ()
