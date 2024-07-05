@@ -2,9 +2,9 @@
 //Remember equal case will be printed twice so make extra conditions to handle that case!!
 #include <iostream>
 using namespace std; 
-int extreme_point(int arr[], int size)   //extreme_point function created to print the extreme points
+int extreme_point(int arr[], int size)  //extreme_point function created to print the extreme points of an array
 {
-    for (int left=0,right=size-1;left<=right;left++,right--)  //left & right variables created to access the index in an array
+    for (int left=0,right=size-1;left<=right;left++,right--)  //left & right variables created to access an index in an array
     {
         if(left==right)     //condition to handle the equal case so that it didn't get printed twice
         {
