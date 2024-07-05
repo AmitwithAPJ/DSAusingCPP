@@ -2,12 +2,12 @@
 using namespace std;
 class Abc
 {
-    private:
+    private:  //private data members!!
      int x;
      int y;
      int z;
-    public:
-     Abc(int _x, int _y, int _z=0)
+    public:    //public data members & functions
+     Abc(int _x, int _y, int _z=0)   //parametrized constructor called!!
      {
          x=_x;  //
          y=_y;  //
