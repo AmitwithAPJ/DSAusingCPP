@@ -2,7 +2,7 @@
 using namespace std;
 int searching(int arr[], int size, int target)
 {
-    bool flag=0;
+    bool flag=0; //initializing flag's value of type bool!!
     for (int i=0; i<size;i++)
     {
         if (arr[i]==target)
