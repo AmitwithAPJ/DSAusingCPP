@@ -15,7 +15,7 @@ int max_2D(int arr[][4],int rows, int cols)  //max_2D function to find MAX Eleme
             }
         }
     }
-    return ans;    /returning the final maximum number 
+    return ans;    //returning the final maximum number 
 }
 int main()
 {
