@@ -3,7 +3,7 @@
 using namespace std;
 
 void dutchNationalFlag(int arr[], int size) {
-    int low = 0, mid = 0, high = size - 1;
+    int low = 0, mid = 0, high = size - 1;  //initializing the first, last and mid index to the variable!!
 
     while (mid <= high) {
         if (arr[mid] == 0) {
