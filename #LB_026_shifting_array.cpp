@@ -11,8 +11,8 @@ void shifting_array(int arr[], int brr[],int size)
 }
 int main ()
 {
-    int brr[6]={};
-    int arr[]={10,20,30,40,50,60};
+    int brr[6]={};  //array created of size 6 that why garbage values
+    int arr[]={10,20,30,40,50,60};   //another array created of size 6
     int size=sizeof(arr)/sizeof(arr[0]);
     shifting_array(arr,brr,size);
     for (int i=0;i<size;i++)
