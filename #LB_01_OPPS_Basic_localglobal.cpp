@@ -9,7 +9,7 @@ int main()
     {
        int x=20;        //another local variable created 
         cout << x << endl;
-      x=5;
+      x=5;              //updating the value of the variable which is most local!!
         cout << x  << endl;
         cout << ::x << endl;   //accessing global variable
     }
