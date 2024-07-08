@@ -1,7 +1,7 @@
 #include <iostream>
 #include<vector>
 using namespace std;
-void D2_array(int arr[][4], int rows, int cols)
+void D2_array(int arr[][4], int rows, int cols)//D2_array function for printing 2D array
 {
     for (int j=0;j<cols;j++)
     {
