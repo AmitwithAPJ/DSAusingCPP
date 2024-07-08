@@ -6,7 +6,7 @@ int first_occurance(int arr[], int size, int target)
 {
     int start=0;   //setting the starting point 
     int end=size-1;  //setting the end point
-    int mid;
+    int mid;       //decalared mid which is going to most importnat for Binary Search!!
     int temp_ans=-1;
     while(start<=end)
     {
