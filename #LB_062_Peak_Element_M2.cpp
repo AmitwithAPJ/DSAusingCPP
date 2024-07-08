@@ -1,7 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int Peak_Element(int arr[], int size) {
+int Peak_Element(int arr[], int size) //Peak_Element function for finding the Peak Element in an array
+{
     int start = 0;
     int end = size - 1;
     while (start <= end) {
