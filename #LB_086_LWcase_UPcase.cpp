@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-  char ch[25];
+  char ch[25];               //
   cin.getline(ch,25);
   int size=strlen(ch); //finding size using built-in function
   for(int i=0;i<size;i++)
