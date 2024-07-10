@@ -2,7 +2,7 @@
 using namespace std;
 void sorting_array(int arr[], int size)
 {
-   int left=0;
+   int left=0;      //
    int mid=0;
    int right=size-1;
    while(mid<right)
