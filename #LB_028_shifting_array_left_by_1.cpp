@@ -5,7 +5,7 @@ using namespace std;
 //you can also use extra array method but it will take extra memory space that's why didn't preferred.
 void shifting_array(int arr[], int size)
 {
-    int temp=arr[0];
+    int temp=arr[0];   //storing the extra index which will not be the part of shifting in loop!!
     for(int i=0;i<size-1;i++)
     {
         arr[i]=arr[i+1]; //store the coming adjacent element in the curreent position
