@@ -2,7 +2,7 @@
 using namespace std;
 void summation_2Darray(int arr[][4], int rows, int cols)
 {
-    int sum_rows=0;  //
+    int sum_rows=0;  //sum rows variable created and initialised
     int sum_cols=0;
     for(int i=0;i<rows;i++)
     {
