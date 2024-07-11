@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-class Student   //class name -> Student
+class Student   //class name  ->  Student
 {
  private:
    int mobile_no;
