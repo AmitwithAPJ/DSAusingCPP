@@ -4,7 +4,7 @@ void sorting(int arr[], int size)
 {
     int left=0;
     int right=size-1;
-    while(left<right)
+    while(left<right)  //condition for the loop!!
     {
         //the conditions are very important for the program to avoid edges case error!!
         while(arr[left]<0 && left<right)
