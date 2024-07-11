@@ -3,7 +3,7 @@
 using namespace std;
 int min_2D(int arr[][3],int rows, int cols)
 {
-    int min=INT_MAX;
+    int min=INT_MAX;    //min varaible will store the -2^31 value 
     for(int i=0;i<rows;i++)
     {
         for(int j=0;j<cols;j++)
