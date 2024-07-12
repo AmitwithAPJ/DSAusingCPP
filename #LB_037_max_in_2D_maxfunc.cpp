@@ -3,7 +3,7 @@
 using namespace std;
 int max_2D(int arr[][5],int rows, int cols) //max_2D function created to find max element
 {
-    int ans=arr[0][0];
+    int ans=arr[0][0];  //storing the first element of 2d ARRAY in ans variable!!
     for (int i=0;i<rows;i++)
     {
         for(int j=0;j<cols;j++)
