@@ -2,7 +2,7 @@
 using namespace std;
 int pivot_element(int arr[], int size)
 {
-    int start=0;   //satrt set to zero
+    int start=0;   //start set to zero
     int end=size-1;
     int ans=0;
     if (arr[start] < arr[end]) // Array is not rotated, return the first index
