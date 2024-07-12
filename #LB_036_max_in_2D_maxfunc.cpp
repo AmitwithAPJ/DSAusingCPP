@@ -9,7 +9,7 @@ int max_2D(int arr[][3],int rows, int cols)
         {
             if(arr[i][j]>temp)
             {
-                temp=arr[i][j];
+                temp=arr[i][j];    //storing the max value!!
             }
         }
     }
