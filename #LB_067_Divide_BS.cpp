@@ -3,7 +3,7 @@ using namespace std;
 #include <iomanip>
 double Divide_BS(int Dividend, int Divisor)
 {
-    double start=0;
+    double start=0;   //start set to 0
     double ans=-1;
     double end=Dividend;
     double precision=0.01;
