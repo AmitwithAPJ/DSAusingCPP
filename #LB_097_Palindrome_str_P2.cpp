@@ -5,7 +5,7 @@ bool checking_palindrome(string str)
 {
    int start=0;
    int end=str.length()-1;
-   int index=1; //setting index variable!!
+   int index=1; //set index variable as 1 !!
    while(start<=end)
    {
       if(str[start]==str[end])
