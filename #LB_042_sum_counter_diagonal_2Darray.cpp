@@ -8,7 +8,7 @@ int summation_2D_diagonal(int arr[][5], int rows, int cols)
     {
         for(int j=cols-(i+1);j<cols-i;j++)
         {
-            sum_diagonal += arr[i][j];
+            sum_diagonal += arr[i][j];  //adding the diagonal element to the sum_diagonal variable!!
         }
     }
     return sum_diagonal;
