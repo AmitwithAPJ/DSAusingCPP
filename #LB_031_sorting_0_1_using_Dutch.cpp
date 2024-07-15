@@ -13,7 +13,7 @@ void sorting_array(int arr[], int size)
         }
         if(arr[left]==1)
         {
-             swap(arr[left],arr[right]);
+             swap(arr[left],arr[right]);    //swapping the left and right element
             right--;
         }
     }
