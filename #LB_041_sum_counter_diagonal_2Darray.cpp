@@ -7,7 +7,7 @@ int summation_2D_diagonal(int arr[][5],int rows, int cols)
     {
         for(int j=0;j<cols;j++)
         {
-            if(i==j)    //checking the condition
+            if(i==j)    //checking the condition for the diagonal elements!!
             {
             sum_diagonal += arr[i][j];   //addition of diagonal element in sum_diagonal variable!!
             }
