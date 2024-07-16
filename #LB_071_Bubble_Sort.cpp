@@ -9,7 +9,7 @@ void Bubble_sort(vector<int>&arr)   //void function for the bubble sorting
         {
             if(arr[j]>arr[j+1])
             {
-                swap(arr[j],arr[j+1]);
+                swap(arr[j],arr[j+1]); //swapping of the next element so that shifting can happen!!
             }
         }
     }
