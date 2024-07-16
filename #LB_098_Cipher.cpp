@@ -3,8 +3,8 @@
 using namespace std;
 string decoding(string key, string message)  //string name-> decoding
 {
-  char temp='a';
-  char arr[200]={0};
+  char temp='a';   
+  char arr[200]={0};  //taken a long char array with a initialized values of 0.
   for(auto ch: key)
   {
      if(ch!=' ' && arr[ch]==0)
