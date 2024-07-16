@@ -14,7 +14,7 @@ void printing(vector<vector<int>>&arr)
 }
 bool mycomp2nd(vector<int>&a, vector<int>&b)  //mycomp2nd to cutsomly do the sorting!!
 {
-    return a[0]>b[0];
+    return a[0]>b[0];   //returning the custom sorted elemented
 }
 int main()
 {
