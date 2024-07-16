@@ -4,8 +4,8 @@ int total_occurance(int arr[], int size, int target)
 {
    int start=0;
    int end=size-1;
-   int half_count=0;
-   int half_count1=0;
+   int half_count=0;  //this means first occurance
+   int half_count1=0;  //this means last occurance
    while(start<=end)
    {
     int mid=start+(end-start)/2;
