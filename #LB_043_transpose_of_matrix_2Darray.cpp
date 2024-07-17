@@ -6,7 +6,7 @@ void transpose_2D(int arr[][4], int rows, int cols)
     {
         for(int j=i;j<cols;j++)
         {
-            swap(arr[i][j],arr[j][i]);  //swapping of the elements!!
+            swap(arr[i][j],arr[j][i]);  //swapping of the elements!!!
         }
     }
 }
