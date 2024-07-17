@@ -4,7 +4,7 @@ using namespace std;
 void sorting_array(int arr[], int size)
 {
     vector<int>brr;
-    int zero_count=0; //zero_count variable 
+    int zero_count=0; //zero_count variable
     int one_count=0;
     int two_count=0;  //variable taken to store the "2"
     for(int i=0;i<size;i++)
