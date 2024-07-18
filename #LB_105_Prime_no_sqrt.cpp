@@ -4,7 +4,7 @@
 using namespace std;
 bool is_prime(int n)
 {
-    int sqrt_n=sqrt(n);  //finding square root through builtin function
+    int sqrt_n=sqrt(n);  //finding square root through built-in function
     for(int i=2;i<=sqrt_n;i++)
     {
         if(n%i==0)
