@@ -6,7 +6,7 @@ void sorting(int arr[], int size)
     {
         if(arr[i]>0 && arr[j]<0)
         {
-            swap(arr[i],arr[j]);
+            swap(arr[i],arr[j]);  //
             i++;
             j--;
         }
