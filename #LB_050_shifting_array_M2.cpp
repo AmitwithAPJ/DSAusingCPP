@@ -18,9 +18,9 @@ void shifiting(int arr[], int size)   //function for shifting the elements in an
 }
 int main ()
 {
- int arr[]={10,20,30,40,50,60};
+ int arr[]={10,20,30,40,50,60}; 
  int size=sizeof(arr)/sizeof(arr[0]);
- shifiting(arr,size);
+ shifiting(arr,size); //passing arguments tp shifiting function
     
     
 
