@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-class data_func //class created of name "data_func"
+class data_func //class created and named as "data_func"
 {
    private:
     int x, y;
