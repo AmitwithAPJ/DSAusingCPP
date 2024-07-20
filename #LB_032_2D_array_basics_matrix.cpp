@@ -7,7 +7,7 @@ void D2_array(int arr[][4], int rows, int cols)
     {
         for(int j=0;j<cols;j++)
         {
-            cout << arr[i][j] << " ";   //printing of the array!!
+            cout << arr[i][j] << " ";   //printing of the array!!!
         }
         cout << endl;
     }
