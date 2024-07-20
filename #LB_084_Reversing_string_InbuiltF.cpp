@@ -1,5 +1,5 @@
 #include <iostream>
-#include <algorithm> // Include the algorithm header
+#include <algorithm> // including the algorithm header file
 #include <string> // normal string header file
 //#include <cstring> for M2 Method jo i c-stye string method hai
 using namespace std;
