@@ -5,7 +5,7 @@ class data_mem//
    public: 
    static int x;
     static int y;
-   data_mem(int _x, int _y)  //can't do initialiszation list here
+   data_mem(int _x, int _y)  //can't do initialiszation list here with static data members
    {
       x=_x;
       y=_y;
