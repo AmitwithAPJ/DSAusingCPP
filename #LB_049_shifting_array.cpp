@@ -6,7 +6,7 @@ void shifting_array(int arr[], int size)  //shifting_array function used to do s
     int temp2=arr[size-2];   //temp2 varaible stores the array second most initaial element..
     for(int i=size-1;i>1;i--)
     {
-        arr[i]=arr[i-2];   //updating the array elements to make the shift 
+        arr[i]=arr[i-2];   //updating array elements to make the shift 
     }
     //updating the remaining cases
     arr[0]=temp2;   
