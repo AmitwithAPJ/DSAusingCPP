@@ -6,6 +6,7 @@ int total_occurance(int arr[], int size, int target)
     int end=size-1;
     int result;
     int mid;   //declaraling mid to know the total occurance thr BS
+    //finding the last occurance
     while(start<=end)
     {
         mid=(start+end)/2;
@@ -23,6 +24,7 @@ int total_occurance(int arr[], int size, int target)
             start=mid+1;
         }
     }
+    //finding first occurance
     start=0;
     end=size-1;
     int result2;
@@ -50,7 +52,7 @@ int main()
     int arr[]={10,20,30,30,30,30,40,50,60};
     int size=sizeof(arr)/sizeof(arr[0]);
     int target=30;
-    int result3=total_occurance(arr,size,target);
+    int result3=total_occurance(arr,size,target);   //result storing the total occurance finded throught function above
     cout << "The Total Occurance is: " << result3;
     
 
