@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 #include<vector>
-void max_element(int arr[][4], int rows, int cols)//
+void max_element(int arr[][4], int rows, int cols) //max_element function for finding max element in 2D array!!
 {
     vector<int>brr;
     for(int i=0;i<rows;i++)
@@ -11,7 +11,7 @@ void max_element(int arr[][4], int rows, int cols)//
        {
           if(arr[i][j]==1)
           {
-              count++;
+              count++;   //count increases!!
           }
        }
        brr.push_back(count);
