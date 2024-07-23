@@ -6,6 +6,7 @@ int first_occurance(int arr[], int size, int target)
     int end=size-1;  //set end variable size 
     int mid;
     int temp_ans=-1;
+    finfing the last occurance!!
     while(start<=end)
     {
         mid=(start+end)/2;
@@ -23,7 +24,7 @@ int first_occurance(int arr[], int size, int target)
             start=mid+1;
         }
     }
-    return temp_ans;
+    return temp_ans;  //returning the last occured element in a sorted array!!
 }
 int main ()
 {
