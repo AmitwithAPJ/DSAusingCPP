@@ -21,7 +21,7 @@ int extreme_point(int arr[], int size)  //extreme_point function created to prin
 int main()
 {
     int size=9;    
-    int arr[9]={2,4,6,8,10,12,14,16,18};   //an array of size "9" is created!!
+    int arr[9]={2,4,6,8,10,12,14,16,18};   //an array of size "9" is created!!!
     extreme_point(arr,size);   //passing array and size in the extreme_point function!!
     return 0;
 }
