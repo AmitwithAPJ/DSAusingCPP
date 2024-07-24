@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include <limits.h>   //header file for min & max value!!
+#include <limits.h>   //header file for min and max value!!
 int main ()
 {
     int arr[10]={1,2,3,4,5,-1,100,-100,400,321};
