@@ -2,7 +2,7 @@
 using namespace std;
 void swapping(int arr[], int index1, int index2)
 {
-    int temp=arr[index1];  //storing the value of index1 in temp variable
+    int temp=arr[index1];  //storing the value of index1 in temp variable!!
     arr[index1]=arr[index2];
     arr[index2]=temp; 
 }
