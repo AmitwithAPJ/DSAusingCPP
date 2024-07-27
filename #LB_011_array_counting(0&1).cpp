@@ -2,7 +2,7 @@
 using namespace std;
 void counting(int arr[], int size)
 {
-    int zero_count=0;   //initializing zero and one count variables
+    int zero_count=0;   //initializing zero and one count variables!!
     int one_count=0;
     for (int i=0;i<size;i++)
     {
