@@ -4,7 +4,8 @@
 using namespace std;
 int max_2D(int arr[][4],int rows, int cols)  //max_2D function to find MAX Element!!
 {
-    int ans=INT_MIN;  //storing INT_MIN in the ans to compare the other elemnents in an array!!
+    int ans=INT_MIN;  
+    //storing INT_MIN in the ans to compare the other elemnents in an array!!
     for(int i=0;i<rows;i++)
     {
         for(int j=0;j<cols;j++)
