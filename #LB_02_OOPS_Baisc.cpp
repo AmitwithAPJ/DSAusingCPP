@@ -6,7 +6,7 @@ class Student  //class Student created
      private:
         int mobile_no;
      public:
-     //Data Memebers/Attributes/Properties
+     //Data Memebers/Attributes/Properties!!
          int id;
          int roll_no;
          string name;
@@ -14,7 +14,7 @@ class Student  //class Student created
          bool present;
   
  
- //Member Functions/Behavoir Created Below
+ //Member Functions/Behavoir Created Below!!
          void playing()
          {
             cout << "I am Playing!!" << endl;
