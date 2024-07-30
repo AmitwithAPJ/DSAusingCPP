@@ -3,8 +3,8 @@ using namespace std;
 int Peak_Element(int arr[], int size)
 {
     int start=0;
-    int end=size-1;   //setting the size of end
-    int ans=0;        //taking temp variable to store the answer
+    int end=size-1;   //setting the size of end!!
+    int ans=0;        //taking temp variable to store the answer!!
     while(start<end)
     {
         int mid=start+(end-start)/2;
