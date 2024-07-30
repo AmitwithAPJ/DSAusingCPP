@@ -2,7 +2,7 @@
 using namespace std;
 void shifting_array(int arr[], int size)
 {
-    int temp=arr[size-1];  //temp variable
+    int temp=arr[size-1];  //temp variable!!
     for(int i=size-1;i>0;i--)
     {
         arr[i]=arr[i-1];
