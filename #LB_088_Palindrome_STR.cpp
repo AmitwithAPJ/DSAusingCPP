@@ -21,7 +21,7 @@ bool checking(char ch[])
 }
 int main()
 {
-  char ch[25];
+  char ch[25];   //created char array of size "25"
   cout << "Enter the String to Check Palindrome: ";
   cin.getline(ch,25);
   if(checking(ch))
