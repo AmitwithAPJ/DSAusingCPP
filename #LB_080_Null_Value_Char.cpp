@@ -4,7 +4,7 @@ int main()
 {
   char ch[25]={'Amit Patel'};
  // cout << "Enter the string: ";
-  //cin.getline(ch,25);
+ //cin.getline(ch,25);
   int i=0;
   int temp;
   while(ch[i]!='\0')
