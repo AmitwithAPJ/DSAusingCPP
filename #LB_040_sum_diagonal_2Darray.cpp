@@ -2,7 +2,7 @@
 using namespace std;
 int summation_2D_diagonal(int arr[][5],int rows, int cols)
 {
-    int sum_diagonal=0;
+    int sum_diagonal=0;  //sum_diagonal variable initialized with the value "0"
     for(int i=0;i<rows;i++)
     {
         for(int j=0;j<cols;j++)
