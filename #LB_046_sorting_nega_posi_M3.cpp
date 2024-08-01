@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-using namespace std;  //
+using namespace std;  
+//created a sorting function!!
 void sorting(int arr[], int size)
 {
     vector<int>brr;
