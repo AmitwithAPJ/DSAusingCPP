@@ -21,7 +21,7 @@ int main()
     int rows=2;
     int cols=2;
     int target=9;
-    int arr[][4]={       //edge cases example are taken (3x3, 4x4 can also be taken)!!
+    int arr[][4]={       //edge cases example are taken (3x3, 4x4 can also be taken)!!!
                   {0,1},
                   {4,5},
                  };
