@@ -11,7 +11,8 @@ int rotated_array(int arr[], int size)
         {
             return start;  //returning the start or end value if the position will be same!!
         }
-        else if(arr[mid]>arr[mid+1])  //checking the whether the mid element is agreater than mid+1 or not.
+        else if(arr[mid]>arr[mid+1])  
+            //checking the whether the mid element is agreater than mid+1 or not.!!
         {
             return mid;
         }
