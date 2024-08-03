@@ -6,7 +6,8 @@ double square_root(int number)
     double start=0;
     double ans=-1;
     double end=number;
-    double precision=0.001; // very important aspect;
+    double precision=0.001; 
+    // very important aspect;
     while(end-start>precision)
     {
         double mid=start+(end-start)/2;
