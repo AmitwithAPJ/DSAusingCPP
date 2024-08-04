@@ -18,7 +18,7 @@ void replacing(char ch[], int size)
 }
 int main()
 {
-  char ch[25];
+  char ch[25];  //Char Array created of Size "25".
   int size=sizeof(ch)/sizeof(ch[0]);
   cout << "Enter the string: ";
   cin.getline(ch,size);
