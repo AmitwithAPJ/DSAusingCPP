@@ -11,7 +11,8 @@ double square_root(int number)
     while(end-start>precision)
     {
         double mid=start+(end-start)/2;
-        if(mid*mid==number)   //condition to check the number 
+        if(mid*mid==number)   
+            //condition to check the number !!
         {
             
             return mid;
