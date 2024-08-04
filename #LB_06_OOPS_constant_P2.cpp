@@ -8,7 +8,6 @@ class Abc
     Abc()
     {
         x=0;
-       
      // *y=2;    putting the value to the memory assign by y which actualli haven't done;
      y=new int(2);  //actual memoery assigned here!!
     }
