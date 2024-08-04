@@ -9,7 +9,8 @@ void Bubble_sort_M2(vector<int>&arr)
      {
         if(arr[start]>=arr[end])
         {
-            swap(arr[start],arr[end]); //swap of the variables thar are present at start and end index!!
+            swap(arr[start],arr[end]); 
+            //swap of the variables thar are present at start and end index!!
             start++;
             end--;
         }
