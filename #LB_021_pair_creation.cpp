@@ -2,7 +2,7 @@
 using namespace std;
 void pair_printing(int arr[],int size)
 {
-    int sum=0;//
+    int sum=0;   //summation variable created to stor sum values!!
     for(int i=0;i<size;i++)
     {
         for(int j=0;j<size;j++)
