@@ -1,7 +1,7 @@
 // Program for shifting elements
 #include <iostream>
 using namespace std;
-//right shifting by 1 position in an array
+//right shifting by 1 position in an array!!
 //you can also use extra array method but it will take extra memory space that's why didn't preferred.
 void shifting_array(int arr[], int size)
 {
