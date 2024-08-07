@@ -2,7 +2,7 @@
 using namespace std;
 bool searching_2D(int arr[][4],int rows,int cols, int target)
 {
-    bool flag=false;    //setting flag value
+    bool flag=false;    //setting flag value!!
     for(int i=0;i<rows;i++)
     {
         for(int j=0;j<cols;j++)
