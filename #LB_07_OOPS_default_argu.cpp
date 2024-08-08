@@ -4,7 +4,7 @@ class Abc
 {
   private:
    int x;
-   int *y; //dynamic memory allocation(Heap)!!
+   int *y; //dynamic memory allocation (Heap)!!
    int z;
   public:
    Abc(int _x, int _y, int _z=0)
