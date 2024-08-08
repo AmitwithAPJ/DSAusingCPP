@@ -1,7 +1,7 @@
 // Program to find max element in 2D array!!
 #include <iostream>
 using namespace std;
-int max_2D(int arr[][5],int rows, int cols) //max_2D function created to find max element
+int max_2D(int arr[][5],int rows, int cols) //max_2D function created to find max element!!
 {
     int ans=arr[0][0];  //storing the first element of 2d ARRAY in ans variable!!
     for (int i=0;i<rows;i++)
