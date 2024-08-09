@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-  char ch[25]; //char array named "ch" is created of size 25!!
+  char ch[25]; //char array named "ch" is created of size 25!!!
   int size=sizeof(ch)/sizeof(ch[0]);
   cin.getline(ch,size);
   int length=0;
