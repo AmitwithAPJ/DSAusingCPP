@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-void sorting_pointers(int arr[], int size)  //sorting_pointers function!!
+void sorting_pointers(int arr[], int size)  
+//sorting_pointers function!!
 {
     for(int i=0,j=size-1;i<j;)  //for loop function!!!
     { 
