@@ -4,7 +4,7 @@ using namespace std;
 #include <limits.h>
 void removing(string str, string part)
 {
-   int index=0;  //index variable created
+   int index=0;  //index variable created!!
    while(index<str.length())
    {
       if(str.find(part)==string::npos)
