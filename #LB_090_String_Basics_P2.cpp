@@ -13,7 +13,7 @@ cout << "Character at 0 is: " << name.at(0) << endl;
 cout << "First Elemnent of String: "  << name.front() << endl;
 cout << "Last Element of string: " << name.back() << endl;*/
 
-//Appending the string!!
+//Appending the string!!!
 
 /*cout << "Enter the sur name: ";
 getline(cin,sur_name);
