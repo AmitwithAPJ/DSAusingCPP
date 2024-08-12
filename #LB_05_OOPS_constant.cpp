@@ -30,7 +30,7 @@ int main()
  a=&b;
  cout << *a << endl; */
 
-//Another Approach!!
+//Another Approach!!!
 
 int *const a=new int(2); //non-const data and const pointer!!
 cout << *a << endl;
